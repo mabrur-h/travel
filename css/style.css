@@ -45,3 +45,142 @@
     font-weight: normal;
     font-style: normal;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    font-family: 'Circular Std', sans-serif;
+}
+
+.main-btn {
+    background-color: #F04037;
+    border-radius: 3px;
+    padding: 12px 45px;
+    color: white;
+}
+
+.main-btn:hover {
+    box-shadow: 4px 4px 13px 0px rgba(50, 50, 50, 0.59);
+    transition: 0.5s;
+}
+
+.main-btn a {
+    color: white !important; 
+}
+
+.bar-drop {
+    display: none;
+}
+
+.main-banner {
+    background-image: url('../img/Oval.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: calc(0% - 140px) 0;
+}
+
+
+.navbar .navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.navbar-list-links {
+    font-size: 0;
+}
+
+.navbar .navbar-list-item {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.navbar-list-links .dropdown-menu-1 {
+    position: relative;
+    padding-bottom: 14px;
+}
+
+.navbar-list-links .dropdown-menu-row {
+    position: absolute;
+    z-index: 999;
+    background-color: white;
+    border-top: 3px solid #435cc9;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 245%;
+    box-shadow: 4px 4px 13px 0px rgba(50, 50, 50, 0.59);
+    display: none;
+    top: 100%;
+}
+
+.dropdown-menu-1:hover .dropdown-menu-row {
+    display: block;
+}
+
+
+.navbar-list-links .dropdown-menu-2 {
+    position: relative;
+}
+
+.navbar-list-links .dropdown-menu-row-2 {
+    position: absolute;
+    top: 45%;
+    left: -125%;
+    z-index: 9999;
+    background-color: white;
+    border-top: 3px solid #F04037;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 125%;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 13px 0px rgba(50, 50, 50, 0.59);
+    display: none;
+}
+
+.dropdown-menu-2:hover .dropdown-menu-row-2 {
+    display: block;
+}
+
+.navbar-list-item-link .caret-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-list-links .dropdown-menu-row .navbar-list-dropdown-item {
+    padding: 8px 0;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.navbar-list-links .main-btn {
+    margin-left: 15px;
+}
+
+.navbar .navbar-list-item-logo {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.navbar .navbar-list-item a {
+    color: #19191B;
+}
+
+
+.navbar .navbar-list-item a:hover {
+    color: #435cc9;
+
+}
+
+.navbar .main-btn {
+    padding: 7px 25px;
+}

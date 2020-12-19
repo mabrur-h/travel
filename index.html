@@ -8,41 +8,93 @@
     <script src="https://kit.fontawesome.com/d7b78f5979.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar">
-        <a href="#" class="navbar-logo">
-            Omega
-        </a>
-
-        <input type="checkbox" id='box'>
-        <label for="box">
-            <span>
-                <i class="fas fa-bars"></i>
-            </span>
-        </label>
-
-        <ul class="navbar-list">
-            <li class="navbar-list-item">
-                <a href="#" class="navbar-link">
-                    Demos
-                </a>
-            </li>
-            <li class="navbar-list-item">
-                <a href="#" class="navbar-link">
-                    Pages
-                </a>
-            </li>
-            <li class="navbar-list-item">
-                <a href="#" class="navbar-link">
-                    Support
-                </a>
-            </li>
-            <li class="navbar-list-item">
-                <a href="#" class="navbar-link main-btn">
-                    Get this app
-                </a>
-            </li>
-        </ul>
-
-    </nav>
+    <header class="main-header">
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <div class="navbar-list-logo">
+                    <li class="navbar-list-item">
+                        <a href="#" class="navbar-list-item-logo">
+                            Omega
+                        </a>
+                    </li>
+                </div>
+                <div class="navbar-list-links">
+                    <li class="navbar-list-item dropdown-menu-1 mob-hid">
+                        <a href="#" class="navbar-list-item-link">
+                            Demos <i class="fas fa-caret-down"></i>
+                        </a>
+                        <div class="dropdown-menu-row">
+                            <ul class="navbar-list-dropdown">
+                                <li class="navbar-list-dropdown-item">
+                                    <a href="#" class="navbar-list-item-link">
+                                        SaaS Landing Page
+                                    </a>
+                                </li>
+                                <li class="navbar-list-dropdown-item dropdown-menu-2">
+                                    <a href="#" class="navbar-list-item-link">
+                                        <p class="">Startup Landing <i class="fas fa-caret-right"></i></p>
+                                    </a>
+                                    <div class="dropdown-menu-row-2">
+                                        <ul class="navbar-list-dropdown">
+                                            <li class="navbar-list-dropdown-item">
+                                                <a href="#" class="navbar-list-item-link">
+                                                    SaaS Landing Page
+                                                </a>
+                                            </li>
+                                            <li class="navbar-list-dropdown-item">
+                                                <a href="#" class="navbar-list-item-link">
+                                                    Startup Landing
+                                                </a>
+                                            </li>
+                                            <li class="navbar-list-dropdown-item">
+                                                <a href="#" class="navbar-list-item-link">
+                                                    App Landing
+                                                </a>
+                                            </li>
+                                            <li class="navbar-list-dropdown-item">
+                                                <a href="#" class="navbar-list-item-link">
+                                                    Desktop Landing Page
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="navbar-list-dropdown-item">
+                                    <a href="#" class="navbar-list-item-link">
+                                        App Landing
+                                    </a>
+                                </li>
+                                <li class="navbar-list-dropdown-item">
+                                    <a href="#" class="navbar-list-item-link">
+                                        Desktop Landing Page
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar-list-item mob-hid">
+                        <a href="#pages" class="navbar-list-item-link">
+                            Pages
+                        </a>
+                    </li>
+                    <li class="navbar-list-item mob-hid">
+                        <a href="#support" class="navbar-list-item-link">
+                            Support
+                        </a>
+                    </li>
+                    <li class="navbar-list-item bar-btn">
+                        <button class="bar-drop">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </li>
+                    <li class="navbar-list-item">
+                        <a href="#">
+                            <div class="main-btn">Get Started</div>
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
