@@ -358,12 +358,14 @@ body {
 .nature-images-left {
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .nature-images-right {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
+    width: 50%;
 }
 
 .travel-promo .main-btn {
@@ -457,4 +459,10 @@ body {
 
 .footer-list-item a:hover {
     color: #435cc9;
+}
+
+@media screen and (max-width: 1140px) {
+    .container {
+        width: 1040px;
+    }
 }
