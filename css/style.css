@@ -208,7 +208,7 @@ body {
 }
 
 .promo-image {
-    width: 300px;
+    width: 320px;
 }
 
 .section-content {
@@ -302,10 +302,159 @@ body {
     justify-content: flex-start;
 }
 
+.trip-image {
+    width: 360px;
+}
+
 .travel-promo .section-text {
     color: #696871;
 }
 
 .trip-list {
     width: 70%;
+}
+
+.trip-list-item {
+    display: flex;
+    padding: 15px 0;
+
+}
+
+.list-number {
+    width: 60px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #5454D4;
+    color: white;
+    font-weight: 600;
+}
+
+.trip-item-content {
+    padding-left: 15px;
+}
+
+.trip-item-text {
+    color: #696871;
+    font-size: 14px;
+    padding-top: 10px;
+    line-height: 20px;
+    width: 80%;
+}
+
+.nature-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nature-images img {
+    width: 95%;
+    padding-bottom: 10px;
+}
+
+.nature-images-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.nature-images-right {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.travel-promo .main-btn {
+    display: block;
+    width: 200px;
+    text-align: center;
+}
+
+.video {
+    height: 100vh;
+    width: 100%;
+}
+
+.video .wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-image {
+    width: 100%;
+    height: 100vh;
+}
+
+.video-play {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: #5454D4;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-play i {
+    font-size: 20px;
+}
+
+.video-play:hover {
+    box-shadow: 1px 1px 15px 20px rgba(39, 120, 196, 0.2);
+}
+
+.footer .wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer .section-text {
+    color: #696871;
+    width: 40%;
+}
+
+.buttons-list {
+    display: flex;
+}
+
+.buttons-list .btn-item {
+    padding: 0 10px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #69687120;
+}
+
+.footer-bottom .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px 0;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+}
+
+.footer-list-item {
+    padding: 0 10px;
+}
+
+.footer-list-item a {
+    color: black;
+}
+
+.footer-list-item a:hover {
+    color: #435cc9;
 }
