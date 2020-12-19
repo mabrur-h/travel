@@ -222,7 +222,7 @@ body {
 .section-text {
     font-size: 18px;
     line-height: 32px;
-    padding: 30px 0;
+    padding: 20px 0;
     width: 90%;
 }
 
@@ -257,4 +257,55 @@ body {
     outline: none;
     border: none;
     font-weight: bold;
+}
+
+.comments {
+    background-color: #5454D4;
+}
+
+.comments .wrapper {
+    padding: 70px 0;
+    justify-content: center;
+}
+
+.comments-stars {
+    color: gold;
+}
+
+.comments-text {
+    padding: 20px 0;
+    font-style: italic;
+    line-height: 28px;
+}
+
+.comments-list {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 80%;
+}
+
+.comments-item {
+    width: 45%;
+}
+
+.commentator {
+    font-size: 16px;
+    color: #ffffffaa;
+}
+
+.travel-promo .wrapper {
+    padding: 50px 0;
+}
+
+.travel-promo .section-image {
+    justify-content: flex-start;
+}
+
+.travel-promo .section-text {
+    color: #696871;
+}
+
+.trip-list {
+    width: 70%;
 }
