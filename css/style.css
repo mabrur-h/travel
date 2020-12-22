@@ -554,4 +554,61 @@ body {
     .container {
         width: 680px;
     }
+
+    .footer-bottom p, ul {
+        font-size: 12px;
+    }
+
+    .footer-bottom .footer-logo {
+        font-size: 18px;
+    }
+
+    .input-place {
+        padding-right: 20px;
+        width: 300px;
+    }
+
+    .email-form .main-btn {
+        top: 110%;
+        padding: 12px 105px;
+    }
+
+    .list-number {
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        width: 480px;
+    }
+    
+    .section-image {
+        display: none;
+    }
+
+    .section-content {
+        width: 100%;
+        text-align: start;
+    }
+
+    .input-place {
+        width: 90%;
+    }
+
+    .email-form .main-btn {
+        position: static;
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    .list-number {
+        width: 50px;
+        height: 28px;
+    }
+
+    .footer-bottom p, ul {
+        font-size: 8px;
+    }
+
 }
