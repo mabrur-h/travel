@@ -179,7 +179,7 @@ body {
 
 .navbar .navbar-list-item a:hover {
     color: #435cc9;
-
+    transition: .4s;
 }
 
 .navbar .main-btn {
@@ -236,6 +236,10 @@ body {
     font-weight: 500;
 }
 
+.input-place:focus {
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.09);
+}
+
 .email-form {
     position: relative;
     margin-top: 5px;
@@ -251,7 +255,7 @@ body {
 
 .email-form .main-btn {
     position: absolute;
-    right: 172px;
+    right: 33%;
     top: 7px;
     border-radius: 6px;
     outline: none;
@@ -375,8 +379,9 @@ body {
 }
 
 .video {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
+    overflow: hidden;
 }
 
 .video .wrapper {
@@ -384,11 +389,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.video-image {
-    width: 100%;
-    height: 100vh;
 }
 
 .video-play {
@@ -411,6 +411,7 @@ body {
 
 .video-play:hover {
     box-shadow: 1px 1px 15px 20px rgba(39, 120, 196, 0.2);
+    transition: .4s;
 }
 
 .footer .wrapper {
@@ -430,6 +431,10 @@ body {
 
 .buttons-list .btn-item {
     padding: 0 10px;
+}
+
+.btn-item a {
+    display: block;
 }
 
 .footer-bottom {
@@ -459,10 +464,94 @@ body {
 
 .footer-list-item a:hover {
     color: #435cc9;
+    transition: .4s;
 }
 
 @media screen and (max-width: 1140px) {
     .container {
-        width: 1040px;
+        width: 980px;
+    }
+
+    .email-form .main-btn {
+        right: 22%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 780px;
+    }
+
+    .email-form .main-btn {
+        right: 12%;
+        font-size: 13px;
+        padding: 12px 15px;
+    }
+
+    .promo-image {
+        width: 250px;
+    }
+
+    .section-title {
+        font-size: 34px;
+    }
+
+    .section-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .input-place {
+        padding-right: 165px;
+    }
+
+    .trip-image {
+        width: 280px;
+    }
+    
+    .list-number {
+        height: 28px;
+        font-size: 12px;
+    }
+
+    .trip-item-title {
+        font-size: 14px;
+    }
+
+    .trip-item-text {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .trip-list {
+        width: 95%;
+    }
+
+    .travel-img {
+        width: 280px;
+    }
+
+    .footer-bottom > p, ul {
+        font-size: 14px;
+    }
+
+    .btn-item {
+        width: 45%;
+    }
+
+    .btn-item img {
+        width: 100%;
+    }
+
+    .buttons-list {
+        justify-content: center;
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 680px;
     }
 }
