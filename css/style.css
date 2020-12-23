@@ -555,6 +555,10 @@ body {
         width: 680px;
     }
 
+    .comments-text {
+        font-size: 14px;
+    }
+
     .footer-bottom p, ul {
         font-size: 12px;
     }
@@ -580,30 +584,34 @@ body {
 
 @media screen and (max-width: 700px) {
     .container {
-        width: 480px;
+        width: 580px;
     }
-    
+
+    .wrapper {
+        justify-content: center;
+    }
+
     .section-image {
         display: none;
     }
 
     .section-content {
-        width: 100%;
-        text-align: start;
+        width: 90%;
+        text-align: center;
     }
 
     .input-place {
-        width: 90%;
+        width: 100%;
     }
 
     .email-form .main-btn {
         position: static;
         margin-top: 10px;
-        width: 90%;
+        width: 100%;
     }
 
     .list-number {
-        width: 50px;
+        width: 38px;
         height: 28px;
     }
 
@@ -611,4 +619,124 @@ body {
         font-size: 8px;
     }
 
+    .travel-promo .wrapper {
+        padding-top: 0;
+    }
+
+    .section-text {
+        width: 100%;
+    }
+
+    .travel-promo .main-btn {
+        width: 100%;
+    }
+
+    .comments-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comments-item {
+        width: 90%;
+    }
+
+    .commentator {
+        text-align: end;
+    }
+
+    .list-number {
+        /* display: none; */
+        width: 30px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .travel-promo .wrapper {
+        padding-top: 50px;
+    }
+
+    .travel-promo .section-text {
+        text-align: start;
+    }
+
+    .trip-list-item {
+        text-align: start;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 480px;
+    }
+
+    .mob-hid {
+        display: none !important;
+    }
+
+    .bar-btn {
+        display: inline-block;
+    }
+
+    .travel-promo .section-text {
+        text-align: center;
+    }
+
+    .travel-promo .wrapper {
+        padding-bottom: 0;
+    }
+
+    .travel-promo .main-btn {
+        margin-bottom: 50px;
+    }
+
+    .footer .section-text {
+        width: 60%;
+    }
+
+    .buttons-list {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 310px;
+    }
+
+    .navbar .main-btn {
+        font-size: 12px;
+    }
+
+    .section-title {
+        font-size: 29px;
+    }
+
+    .section-text {
+        font-size: 14px;
+    }
+
+    .input-place {
+        padding: 10px 44px;
+    }
+
+    .email-form .main-btn {
+        padding: 10px 85px;
+    }
+
+    .list-number {
+        width: 60px;
+    }
+
+    .footer-bottom .wrapper {
+        flex-direction: column;
+    }
+
+    .footer-bottom p, ul {
+        font-size: 10px;
+    }
+
+    .footer-copyright {
+        padding: 12px 0;
+    }
 }
